@@ -1,0 +1,15 @@
+#include <Servo.h>
+
+  Servo servo1;
+  void setup() {
+  servo1.attach (2);  
+ }
+
+void loop () {
+  servo1.write(70);
+  delay(1500);
+  servo1.write(115);
+  delay(3000);
+  servo1.write(30);
+  delay(5000);
+}
