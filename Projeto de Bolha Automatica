@@ -1,15 +1,30 @@
-#include <Servo.h>
+/**************************************************************************
+                    Gerador de Bolhas Automatico
+                  
+                    Autor : Canal Arduino Brasil
+            
+ **************************************************************************/
 
-  Servo servo1;
+//Código do Arduino
+
+#include <Bolha.h> //Nome da variavel do arduino
+
+  Bolha bolha1;
   void setup() {
   servo1.attach (2);  
  }
 
 void loop () {
-  servo1.write(70);
-  delay(1500);
+  servo1.write(70); //Posição da maquina
+  delay(2500);
   servo1.write(115);
-  delay(3000);
+  delay(3500);
   servo1.write(30);
-  delay(5000);
+  delay(5500);
 }
+
+//Sobre o projeto
+
+Este projeto utiliza a placa arduino (de preferencia arduino uno)
+possui um código simples
+Se o projetor funcionar ele ira fazer com uma maquina se mecha como objivo de criar bolhas
