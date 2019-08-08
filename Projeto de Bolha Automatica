@@ -25,6 +25,9 @@ void loop () {
 
 //Sobre o projeto
 
-Este projeto utiliza a placa arduino (de preferencia arduino uno)
+Este projeto utiliza a placa arduino uno
 possui um código simples
 Se o projetor funcionar ele ira fazer com uma maquina se mover com o objetivo de criar bolhas
+
+//Materiais
+
