@@ -1,11 +1,3 @@
-/**************************************************************************
-                    Gerador de Bolhas Automatico
-                  
-                    Autor : Canal Arduino Brasil
-            
- **************************************************************************/
-
-//Código do Arduino
 
 #include <Bolha.h> //Nome da variavel do arduino
 
@@ -23,11 +15,4 @@ void loop () {
   delay(5500);
 }
 
-//Sobre o projeto
-
-Este projeto utiliza a placa arduino uno
-possui um código simples
-Se o projetor funcionar ele ira fazer com uma maquina se mover com o objetivo de criar bolhas
-
-//Materiais
 
