@@ -4,7 +4,7 @@
                  
                  Projeto Para Gerar Bolhas Automaticamente
                             
-                            Autor : Arduino Brasil
+                        Autor : Arduino Brasil
                     
  **************************************************************************/
 
